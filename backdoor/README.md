@@ -67,7 +67,7 @@ YOU CAN ASLO UPLOAD ANYTHING
 
 ![](img/b5.jpeg)
 
-**Once donw with the job simply run "exit" to terminate connection**
+**Once done with the job simply run "exit" to terminate connection**
 
 ```python
 root@kali:~# exit
