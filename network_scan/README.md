@@ -35,6 +35,9 @@ root@kali:~/Hack-X/network_scan#  python network_scanner.py  --target 10.0.2.1/2
 
 ```
 
+## SCREENSHOT
+![](img/nc.jpeg)
+
 ### BUILD WITH 
 
 - Python
