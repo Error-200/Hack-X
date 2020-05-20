@@ -4,7 +4,7 @@ import requests
 import re
 import urlparse
 
-target_url = "https://www.dictionary.com/"
+target_url = "enter_your_target_url_here"
 target_links = []
 
 def extract_links_from(url):
