@@ -5,7 +5,7 @@ import requests
 
 def request(url):
     try:
-        return requests.get("http://" + url)
+        return requests.get("https://" + url)
     except requests.exceptions.ConnectionError:
         pass
 
@@ -18,4 +18,4 @@ with open("enter_your_wordlist_location", "r") as wordlist_file:
         test_url = target_url + "/" +  word
         response = request(test_url)
         if response:
-            print("[+] Disoverd subdomain >> " + test_url)
+            print("[+] Disoverd directories >> " + test_url)
