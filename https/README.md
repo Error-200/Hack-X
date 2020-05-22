@@ -26,7 +26,6 @@ root@kali:~# python arp_spoof.py
 root@kali:~# iptables --flush
 root@kali:~# echo "1" > /proc/sys/net/ipv4/ip_forward
 
-
 ```
 
 3. Run the sslstrip :
@@ -51,3 +50,7 @@ root@kali:~# iptables -t nat -A PREROUTING -p tcp --destination-port 80 -j REDIR
 root@kali:~# python packet_sniffer.py
 
 ```
+
+## SCREENSHOT
+
+![](img/ssl.png)
