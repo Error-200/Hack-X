@@ -28,13 +28,6 @@
  - [CRAWLER](https://github.com/Error-200/Hack-X/tree/master/crawler)
   : a bunch of tools to guess subdomains and directories (using wordlist) and a tool to extract entire **sitemap** 
 
-- [port-scannner](https://github.com/Error-200/Hack-X/tree/master/port-scanner)
+- [Port-scannner](https://github.com/Error-200/Hack-X/tree/master/port-scanner)
 : port scanner usnig multithreading,queue,sockets for scannig ports
 
-```
-root@kali:~#chmod a+x port-scanner.py
-root@kali:~#./port-scanner.py google.com
-Port: 80 is open
-```
-for Threading basics refer:
-https://noob-atbash.github.io/threads/
